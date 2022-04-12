@@ -54,11 +54,3 @@ To evaluate the performance of the Diff-Baby-NTM model trained in the previous s
 `python main.py --num_par 3 --model_name baby_ntm_softmax --n_hidden 8 --memory_dim 5 --load_path models/baby_ntm_model_weights.pth`
 
 
-## Visualizations
-Look at all notebooks to understand this work.
-
-## Things to do
-Increase training sequence length, create a validation set (max is train represents maximum length of language in other words N, so a^nb^n, here n = max). For validation have data of length max+2, max+15, modify test to have symbols max+17 and max+50. Perform experiments with all architectures
-
-## Important 
-Do not share this code beside your teammates, sharing this can lead to IP issues.
